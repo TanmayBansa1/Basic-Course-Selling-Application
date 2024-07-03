@@ -2,10 +2,15 @@
 
 ### Description
 
-Same as the last assignment but you need to use jwts for authentication.
+uses jwts for authentication and mongoDB for the database instance
 We have introduced the signgin endpoints for both users and admins.
-For this one, in every authenticated requests, you need to send the jwt in headers (Authorization : "Bearer <actual token>").
-You need to use mongodb to store all the data persistently.
+It needs to support two types of users - 
+1. Admins
+2. Users
+
+Admins are allowed to sign up, create courses.
+Users are allowed to sign up, view courses, purchase courses.
+This in the real world would translate to an app like udemy.
 
 ## Routes
 
