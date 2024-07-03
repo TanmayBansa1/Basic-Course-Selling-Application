@@ -3,8 +3,8 @@
 ### Description
 
 uses jwts for authentication and mongoDB for the database instance
-We have introduced the signgin endpoints for both users and admins.
-It needs to support two types of users - 
+
+It supports two types of users - 
 1. Admins
 2. Users
 
